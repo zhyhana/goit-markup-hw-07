@@ -402,7 +402,7 @@ a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
-  outline-color: var(--accent-color);
+  outline-color: #2196F3;
 }
 
 button {
@@ -476,6 +476,7 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
+  color: #212121;
 }
 
 .item-title {
@@ -487,7 +488,7 @@ body {
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: #2196F3;
 }
 
 .flexbox {
@@ -561,14 +562,14 @@ body {
 
 .primary-btn {
   padding: 10px 32px;
-  background: #2196f3;
+  background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .primary-btn:hover,
 .primary-btn:focus {
-  color: #2196f3;
+  color: #2196F3;
   background: #ffffff;
 }
 
@@ -585,7 +586,7 @@ body {
 .select-button:hover,
 .select-button:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -597,7 +598,7 @@ body {
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: #2196F3;
 }
 
 .logo-black {
@@ -645,7 +646,7 @@ body {
 }
 
 .social-link-link:hover, .social-link-link:focus {
-  background-color: #2196f3;
+  background-color: #2196F3;
 }
 
 .social-link-link:hover svg, .social-link-link:focus svg {
@@ -667,6 +668,7 @@ body {
 
 .header-menu-link {
   position: relative;
+  color: #212121;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -685,12 +687,12 @@ body {
 }
 
 .header-menu-link.active, .header-menu-link:hover, .header-menu-link:focus {
-  color: #2196f3;
+  color: #2196F3;
 }
 
 .header-menu-link.active::after, .header-menu-link.active::after, .header-menu-link.active::after, .header-menu-link:hover::after, .header-menu-link:hover::after, .header-menu-link:hover::after, .header-menu-link:focus::after, .header-menu-link:focus::after, .header-menu-link:focus::after {
   bottom: -28px;
-  background-color: #2196f3;
+  background-color: #2196F3;
 }
 
 .header-contact-item:not(:last-child) {
@@ -855,7 +857,7 @@ body {
 }
 
 .subscribe-email:focus {
-  border-color: #2196f3;
+  border-color: #2196F3;
 }
 
 .subscribe-email::-webkit-input-placeholder {
